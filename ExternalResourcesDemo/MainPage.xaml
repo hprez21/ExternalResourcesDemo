@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ExternalResourcesDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout BackgroundColor="Black">
+        <Image>
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="Icons"
+                    Glyph="&#xF2A4;"
+                    Size="50" />
+            </Image.Source>
+        </Image>
+    </StackLayout>
+
+</ContentPage>
